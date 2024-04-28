@@ -2,7 +2,7 @@ NAME = easyfind
 FILES = main.cpp
 HEADERS = easyfind.hpp 
 FLAGS = c++ -std=c++98 -Wall -Wextra -Werror
-
+sadasd
 all: $(NAME)
 
 $(NAME):	$(FILES) $(HEADERS) 
