@@ -31,3 +31,5 @@ int main()
     std::stack<int> s(mstack);
     return 0;
 }
+
+// Bu main PDF te hazır olarak verilmiş, test amaçlı bir maindir.
