@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <deque>
-asddsad
+
 int main()
 {
     std::vector<int> vec(5);
