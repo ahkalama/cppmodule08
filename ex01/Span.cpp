@@ -41,6 +41,23 @@ int Span::shortestSpan()
     return span;
 }
 
+void Span::fill(iter begin, iter end)
+{
+    iter it;
+    for (it = begin; it != end; ++it) {
+        this->addNumber(*it);
+    }
+}
+
+void Span::print()
+{
+    iter it;
+
+    for (it = vec.begin(); it != vec.end(); it++) {
+        std::cout << *it << std::endl;
+    }
+}
+
 int Span::longestSpan()
 {
     if (maxSize <= 1)
