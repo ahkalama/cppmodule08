@@ -1,7 +1,9 @@
-#pragma once
+pragma once
 
 #include <vector>
 #include <iostream>
+
+typedef std::vector<int>::iterator iter;
 
 class Span {
     public:
@@ -12,6 +14,8 @@ class Span {
         void addNumber(int num);
         int shortestSpan();
         int longestSpan();
+        void fill(iter begin, iter end);
+        void print();
     private:
         Span();
         std::vector<int> vec;
